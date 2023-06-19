@@ -2,7 +2,7 @@ import { ArrowBackIcon } from "@chakra-ui/icons";
 import { Box, FormControl, IconButton, Input, Spinner, Text, useToast } from "@chakra-ui/react"
 import useGetSender from "../hooks/useGetSender";
 import ProfileModal from "./ProfileModal";
-import UpdateGroupChatModal from "./updateGroupChatModal";
+import UpdateGroupChatModal from "./UpdateGroupChatModal";
 import { useGetUserChatsQuery } from "../app/chatApiSlice";
 import { useEffect, useMemo, useState } from "react";
 import { useLazyGetMessagesQuery, useSendMessageMutation } from "../app/messageApiSlice";
