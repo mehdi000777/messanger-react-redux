@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import Chats from "./pages/Chats"
 import Layout from "./components/Layout"
 import PersistLogin from "./components/Auth/PersistLogin"
-import ProtectedRout from "./components/Auth/protectedRout"
+import ProtectedRout from "./components/Auth/ProtectedRout"
 
 function App() {
   return (
